@@ -14,7 +14,10 @@ public class CompFuel {
         sportscar.mpg = 12;
         sportscar.passengers = 2;
 
+        Vehicle hatchback = new Vehicle(5, 13, 35);
+
         System.out.println("To go " + distMiles + " miles, a minivan needs " + minivan.fuelNeeded(distMiles) + " gallons of fuel.");
         System.out.println("To go " + distMiles + " miles, a sportscar needs " + sportscar.fuelNeeded(distMiles) + " gallons of fuel.");
+        System.out.println("To go " + distMiles + " miles, a hatchback needs " + hatchback.fuelNeeded(distMiles) + " gallons of fuel.");
     }
 }
