@@ -1,3 +1,5 @@
+package chapter3;
+
 public class ContinueLabel {
     public static void main(String[] args) {
         outerloop: for (int i = 1; i < 10; i++) {

@@ -1,3 +1,5 @@
+package chapter3;
+
 class BreakDemo {
     public static void main(String[] args) {
         int num = 100;

@@ -1,3 +1,5 @@
+package chapter3;
+
 public class Break5 {
     public static void main(String[] args) {
         done:

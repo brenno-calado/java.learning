@@ -1,3 +1,5 @@
+package chapter3;
+
 class ContinueDemo {
     public static void main(String[] args) {
         int i;
